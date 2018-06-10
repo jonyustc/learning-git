@@ -4,7 +4,7 @@ function doSum(n){
 	var sum=0;
 
 	//Actiual logic
-
+	sum=n.reduce(function(o,n) {return o+n; });
 	
 
 	return sum;
